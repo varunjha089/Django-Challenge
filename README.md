@@ -2,6 +2,9 @@
 
 It's a coding challange to code **`Django`** sites for 150 days atleast
 
+### You can configure a Ubuntu Server for Django using the link [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-20-04)
+
+
 ## Courses Include:
 
 | S. No.| Platform | Course Name | Links |
