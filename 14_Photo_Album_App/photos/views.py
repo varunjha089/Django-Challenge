@@ -11,7 +11,13 @@ def gallery(request):
         photos = Photo.objects.filter(category__name=category)
 
     categories = Category.objects.all()
-    context = {'categories': categories, 'photos': photos}
+
+    # adding on my own. trying to add little buttons instead of text.
+    list_of_class = ['btn-primary', 'btn-secondary', 'btn-success', 'btn-danger', 'btn-warning', 'btn-info']
+
+    # terror is end
+    #                                                      This right here again terror.
+    context = {'categories': categories, 'photos': photos, 'list_of_class': list_of_class}
     return render(request, 'photos/gallery.html', context)
 
 
