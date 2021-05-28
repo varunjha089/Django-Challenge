@@ -9,6 +9,12 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
+# Trying to change the class dynamically from the list in views.py https://www.youtube.com/watch?v=wkTE2QvzSmc
+# class list_of_class(models.Model):
+#     class_name = models.CharField(max_length=20, null=False, blank=False)
+
+#     def __str__(self):
+#         return self.class_name
 
 class Photo(models.Model):
     category = models.ForeignKey(
