@@ -40,7 +40,7 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        श्रेणियाँ
+                        <b>श्रेणियाँ</b>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -70,7 +70,18 @@
                             <img class="image-thumbail" src="{{photo.image.url}}" alt="Card image cap">
 
                             <div class="card-body">
-                                <small>श्रेणि: {{photo.category.name}}</small>
+                                <!-- using cycle -->
+
+                                
+                                
+                                <small><b>श्रेणि:</b><br/>
+
+                                    <button class="btn btn-sm {% cycle 'btn-primary' 'btn-secondary' 'btn-success' 'btn-danger' 'btn-warning' 'btn-info' %}">
+                                        {{photo.category.name}}
+                                    </button>
+                                    
+                                    </small>
+                                
                             </div>
                             <a href="{% url 'photo' photo.id %}" class="btn btn-outline-dark btn-sm m-1">
                                 इस्को दावा डाला तो लाइफ जिंगाला</a>
