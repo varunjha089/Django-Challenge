@@ -22,6 +22,10 @@
             color: black;
         }
     </style>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/fdfd5d638b.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body class="m-5">
@@ -30,13 +34,17 @@
         <div class="row">
             <div class="col-md-3">
 
+                <div class="card my-2">
+                    <a href="#" class="btn btn-success btn-block btn-sm m-1" disabled><i class="fas fa-rupee-sign"></i>  योगदान दे</a>
+                    <!-- <a href="{% url 'add' %}" class="btn btn-success btn-block btn-sm m-1" disabled>योगदान दे</a> -->
+                </div>
                 <div class="card">
                     <div class="card-header">
-                        Categories
+                        श्रेणियाँ
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            <a href="{% url 'gallery' %}">All</a>
+                            <a href="{% url 'gallery' %}">समस्त</a>
                         </li>
                         {% for category in categories %}
                         <li class=" list-group-item">
@@ -47,7 +55,7 @@
                         {% endfor %}
 
 
-                        <a href="{% url 'add' %}" class="btn btn-dark btn-block btn-sm m-1">Add Photo</a>
+                        <a href="{% url 'add' %}" class="btn btn-primary btn-block btn-sm m-1"><i class="fas fa-camera-retro"></i>  Add Photo</a>
 
                     </ul>
                 </div>
@@ -62,9 +70,10 @@
                             <img class="image-thumbail" src="{{photo.image.url}}" alt="Card image cap">
 
                             <div class="card-body">
-                                <small>Category: {{photo.category.name}}</small>
+                                <small>श्रेणि: {{photo.category.name}}</small>
                             </div>
-                            <a href="{% url 'photo' photo.id %}" class="btn btn-outline-dark btn-sm m-1">View</a>
+                            <a href="{% url 'photo' photo.id %}" class="btn btn-outline-dark btn-sm m-1">
+                                इस्को दावा डाला तो लाइफ जिंगाला</a>
                         </div>
                     </div>
                     {% empty %}
