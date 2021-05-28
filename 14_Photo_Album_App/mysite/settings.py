@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     # Created Apps
     'photos.apps.PhotosConfig',
+
+    # Installed Apps
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -129,6 +132,15 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = BASE_DIR / 'static/images' 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+# S3 storage 
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+
+
+AWS_STORAGE_BUCKET_NAME = 'photo-album-app-varunjha089'
+
+AWS_QUERYSTRING_AUTH = False
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
