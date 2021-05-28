@@ -1,6 +1,11 @@
 # The link is :-
 #               https://github.com/github/gitignore
 
+
+# Virtual Environment
+django-env/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
