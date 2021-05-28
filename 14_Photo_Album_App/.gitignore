@@ -1,1 +1,7 @@
 db.*
+
+# database files
+photos/migrations
+
+# Static Files
+static*
