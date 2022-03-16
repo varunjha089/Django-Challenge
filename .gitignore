@@ -3,7 +3,7 @@
 
 
 # Virtual Environment
-django-env/
+env/
 
 
 # Byte-compiled / optimized / DLL files
