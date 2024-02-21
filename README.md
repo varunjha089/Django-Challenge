@@ -22,7 +22,9 @@ It's a coding challange to code **`Django`** sites for 150 days atleast
 | 11. | Udemy | Build three custom, functional websites in Django | [Click Here](https://www.udemy.com/course/build-three-custom-functional-websites-in-django-30/) |
 | 12. | Udemy | Python and Django Full Stack Web Developer Bootcamp | [Click Here](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/) |
 | 13. | Udemy | Django & Python: complete BUNDLE + Django real project 2020 | [Click Here](https://www.udemy.com/course/python-django-tkinter-complete-bundle-advance/) |
-| 14. | YouTube | Photo Album App | [Click Here for Part 1](https://www.youtube.com/watch?v=sSquD2u5Ie0) <br> [Click Here for Part 2]() |
+| 14. | YouTube | Photo Album App | [Click Here for Part 1](https://www.youtube.com/watch?v=sSquD2u5Ie0) |
+| 15. | YouTube | API's with Django REST Framework | [Click Here](https://www.youtube.com/watch?v=c0x_AaPjNCY) |
+
 
 
 <br>
