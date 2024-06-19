@@ -24,6 +24,7 @@ It's a coding challange to code **`Django`** sites for 150 days atleast
 | 13. | Udemy | Django & Python: complete BUNDLE + Django real project 2020 | [Click Here](https://www.udemy.com/course/python-django-tkinter-complete-bundle-advance/) |
 | 14. | YouTube | Photo Album App | [Click Here for Part 1](https://www.youtube.com/watch?v=sSquD2u5Ie0) |
 | 15. | YouTube | API's with Django REST Framework | [Click Here](https://www.youtube.com/watch?v=c0x_AaPjNCY) |
+| 16. | YouTube | Complete Django Tutorial | [Click Here](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iqfAag3a_BKEX1N43uJutw) |
 
 
 
@@ -31,7 +32,7 @@ It's a coding challange to code **`Django`** sites for 150 days atleast
 
 ### Total length 
 
-- 160 Hrs.
+- 160 Hrs.( not included after 16)
 
 
 ### Important Resources 
